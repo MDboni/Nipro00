@@ -8,3 +8,20 @@ body{
     font-weight: 400;
     color: #333333;
 }
+.c_nav{}
+.c_h{
+    font-family: "Times New Roman";
+        font-size: 26px;
+font-weight: 700;   
+}
+.menu{}
+.menu ul li a {
+    font-size: 17px;
+    padding: 0px 13px !important;
+    color: #8e8e8e;
+    transition: .3s;
+}
+.menu ul li a:hover{
+    color: rgb(62, 69, 75);
+    transform: scale(.8);
+}
