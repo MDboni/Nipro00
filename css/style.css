@@ -2,26 +2,99 @@
 font-family: 'Poppins', sans-serif;
 font-family: 'PT Sans', sans-serif;
 font-family: 'Roboto', sans-serif; */
-body{
+body {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #333333;
 }
-.c_nav{}
-.c_h{
-    font-family: "Times New Roman";
-        font-size: 26px;
-font-weight: 700;   
+/* header start  */
+
+header{
+    background-color: #ffffff;
 }
-.menu{}
+
+.c_nav {}
+
+.c_h {
+    font-family: "Times New Roman";
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.menu {}
+
 .menu ul li a {
     font-size: 17px;
-    padding: 0px 13px !important;
+    padding: 0px 24px !important;
     color: #8e8e8e;
     transition: .3s;
 }
-.menu ul li a:hover{
+
+.menu ul li a:hover {
     color: rgb(62, 69, 75);
     transform: scale(.8);
 }
+
+.dpse {
+    color: none !important;
+}
+
+/* search dropdown  */
+.drop-s {
+    border: none !important;
+}
+.s-btn{
+    border-color: transparent !important;
+}
+.s-btn::after {
+    display: none !important;
+}
+
+.s-btn i {
+    transition: .3s;
+    color: #8e8e8e
+}
+
+.s-btn i:hover{
+    transform: scale(1.2);
+    color: rgb(62, 69, 75);
+}
+
+.N_menu{
+    border-color: transparent !important;
+    min-width: 360px;
+}
+
+.N_menu[data-bs-popper] {
+    top: 52px !important;
+    left: -146px !important;
+}
+
+    .N_con {
+        width: 160px !important;
+        transition: 20.9s;
+    }
+    .N_con:hover{
+        transform: scale(1.1);
+
+    }
+    .N_con:focus {
+        border-color: none !important;
+        box-shadow: none !important;
+    }
+.N_button{
+    border: 0;
+    background: transparent;
+
+}
+    .N_button i{
+        font-size: 16px;
+        border-color: transparent !important;
+        transition: .5s;
+    }
+    .N_button i:hover{
+        transform: scale(1.3);
+    }
+    
+
